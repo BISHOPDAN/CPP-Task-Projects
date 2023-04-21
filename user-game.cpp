@@ -36,7 +36,7 @@ char getUserChoice()
     do
     {
         cout << "************************\n";
-        cout <<  " Choice the following\n";
+        cout <<  " Choose the following\n";
         cout << "************************\n";
         cout << "'r' is for Rock\n";
         cout << "'p' is for Paper\n";
@@ -71,6 +71,9 @@ void showChoice(char choice)
     case 'p': cout << "Paper\n";
         break;
     case 's': cout << "scissors\n";
+        break;
+    
+    default: cout << "Not valid input\n";
         break;
     }
 }
@@ -117,5 +120,6 @@ void chooseWinner(char player, char computer)
                     cout << "It is a tie!" << endl;
                 }
                 break;
+    default: cout << "It is not a valid input" << endl;
     }
 }
