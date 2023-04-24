@@ -41,7 +41,7 @@ int main(){
     }
   }
   while (choice != 4);
-  
+
   return 0;
 }
 
@@ -53,7 +53,7 @@ double deposit()
 {
   double amount = 0;
 
-  cout << "Enter amout to  be deposited: ";
+  cout << "Enter amount to  be deposited: ";
   cin >> amount;
 
   if(amount > 0)
